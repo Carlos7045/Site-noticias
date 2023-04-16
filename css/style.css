@@ -1,0 +1,104 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: #fff url(../Imagens/fundo.png) repeat-x;
+}
+#container {
+  width: 800px;
+  margin: auto;
+  border: 1px solid red;
+  
+}
+#topo {
+  height: 150px;
+  
+  padding-top: 25px;
+  background: url(../Imagens/detalhe-topo.png) no-repeat right top;
+}
+.logo {
+  width: 152px;
+  height: 66px;
+  background: url(../Imagens/logo-of.png) no-repeat center;
+  text-indent: -3000px;
+}
+/* *** Barra de navegação *** */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#topo ul {
+  margin: 30px;
+  background: #b10333;
+  float: left;
+}
+#topo ul li {
+  float: left;
+}
+#topo ul a {
+  font-size: 0.9em;
+  display: block;
+  padding: 0.5em 1.5em;
+  line-height: 2.1em;
+  text-decoration: none;
+  color: #fff;
+  background: url(../Imagens/divisor.png) no-repeat left center;
+}
+#topo ul .primeira a {
+  background: none;
+}
+#topo ul a:hover {
+  color: #69001d;
+}
+body.home #navegacao a#home, 
+body.cidade #navegacao a#cidade, 
+body.policial #navegacao a#policial, 
+body.educacao #navegacao a#educacao,
+body.negocios #navegacao a#negocios,
+body.esportes #navegacao a#esportes,
+body.estado #navegacao a#estado
+ {
+  color: #fff;
+  background: #f7014728;
+}
+/* *** COnfiguração  layout de três conlunas */
+#conteudo {
+  margin-top: 60px;
+  background: rgba(165, 99, 83, 0.315);
+}
+#primario {
+  width: 290px;
+  float: left;
+  margin: 0 0 20px 185px;
+  background: blue;
+}
+#secundario {
+  width: 290px;
+  float: left;
+  margin: 0 0 20px 35px;
+  background: green;
+}
+#lateral {
+  width: 165px;
+  float: left;
+  margin: 0 0 20px -800px;
+  background: yellow;
+  
+}
+
+
+
+/* *** Rodapé *** */
+#rodape {
+  background: #294c71;
+  padding: 20px;
+}
+#roda {
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+}
