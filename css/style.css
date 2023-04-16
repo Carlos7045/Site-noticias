@@ -70,8 +70,21 @@ body.estado #navegacao a#estado
   margin-top: 60px;
   background: rgba(165, 99, 83, 0.315);
 }
-#primario {
+#lateral {
+  width: 165px;
+  float: left;
+  margin: 0 0 20px -800px;
+  background: yellow;
+  
+}
+#tres-colunas #primario {
   width: 290px;
+  float: left;
+  margin: 0 0 20px 185px;
+  background: blue;
+}
+#duas-colunas #primario {
+  width: 575px;
   float: left;
   margin: 0 0 20px 185px;
   background: blue;
@@ -82,13 +95,7 @@ body.estado #navegacao a#estado
   margin: 0 0 20px 35px;
   background: green;
 }
-#lateral {
-  width: 165px;
-  float: left;
-  margin: 0 0 20px -800px;
-  background: yellow;
-  
-}
+
 
 
 
