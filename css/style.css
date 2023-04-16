@@ -71,20 +71,22 @@ body.estado #navegacao a#estado
   background: rgba(165, 99, 83, 0.315);
 }
 #lateral {
-  width: 165px;
+  width: 190px;
   float: left;
-  margin: 0 0 20px -800px;
+  margin: 0 10px 20px -799px;
   
   
 }
 #primario {
   width: 290px;
   float: left;
-  margin: 0 0 20px 185px;
+  margin: 0 0 20px 200px;
+  
   
 }
 #duas-colunas #primario {
-  width: 615px;
+  width: 590px;
+  margin: 0 0 15px 210px;
 }
 #uma-colunas #primario {
   width: 800px;
@@ -93,7 +95,7 @@ body.estado #navegacao a#estado
 #secundario {
   width: 290px;
   float: left;
-  margin: 0 0 20px 35px;
+  margin: 0 0 20px 20px;
   
 }
 /* *** Caixa *** */
@@ -113,8 +115,21 @@ h2 {
   padding: 5px;
   margin-top: 5px;
 }
+/* *** Formatar menus laterais *** */
+#lateral ul a {
+  font-size: 0.9;
+  padding: 3px;
+  display: block;
+  line-height: 30px;
+  text-decoration: none;
+  border-bottom: 1px solid #f3f3f3;
+}
+#lateral ul a:hover {
+  background: #f9f9f9 url(../Imagens/marcador.png) no-repeat left center;
+ padding-left: 20px;
+  color: #a1a1a1;
 
-
+}
 /* *** Rodapé *** */
 #rodape {
   background: #294c71;
