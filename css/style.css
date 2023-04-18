@@ -130,6 +130,71 @@ h2 {
   color: #a1a1a1;
 
 }
+label {
+  display: block;
+  cursor: pointer;
+}
+input {
+  width: 160px;
+  padding: 5px;
+  font-size: 0.9em;
+  background: #fff;
+}
+input.submit {
+  width: 80px;
+  color: #fff;
+  background-color: #b10333;
+  border: 2px solid #870529;
+  padding: 5px;
+}
+img {
+  border: 2px solid #dfdfdf;
+}
+img.imagem-principal {
+  width: 98%;
+  border: 3px solid #dfdfdf;
+}
+h3 {
+  text-transform: uppercase;
+  display: inline;
+  font-size: 0.8em;
+  padding: 3px;
+}
+.destaque h3 {
+  background: #b10333;
+  color: #fff;
+}
+.entrevista h3 {
+  background: #de003e;
+  
+}
+/* *** Formatando lista de noticias*** */
+#lista-noticias li {
+  padding: 2px;
+  border-bottom: 1px solid #ccc;
+  height: 63px;
+  
+}
+#lista-noticias li a img {
+  float: left;
+  margin: 5px;
+}
+#lista-noticias li a {
+  text-decoration: none;
+  
+}
+#lista-noticias li a h3 {
+  font-size: 0.8em;
+  padding: 0;
+  color: #3e7ab9;
+}
+#lista-noticias li a p {
+  font-size: 0.7em;
+}
+#lista-noticias li:hover {
+  background: #eee;
+  cursor: pointer;
+}
 /* *** Rodapé *** */
 #rodape {
   background: #294c71;
