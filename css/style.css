@@ -169,6 +169,9 @@ h3 {
   
 }
 /* *** Formatando lista de noticias*** */
+#lista-noticia {
+  margin: 0 0 0 0px;
+}
 #lista-noticias li {
   padding: 2px;
   border-bottom: 1px solid #ccc;
